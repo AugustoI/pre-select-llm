@@ -1,0 +1,7 @@
+# Exploração local, sem PyTorch, CUDA ou downloads de modelos.
+pandas>=2.2,<4
+matplotlib>=3.9,<4
+jupyterlab>=4.4,<5
+nbconvert>=7.16,<8
+nbclient>=0.10,<1
+ipykernel>=6.29,<8

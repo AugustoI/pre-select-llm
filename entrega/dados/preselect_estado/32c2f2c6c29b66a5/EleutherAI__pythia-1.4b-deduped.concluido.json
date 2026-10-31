@@ -1,0 +1,14 @@
+{
+  "status": "complete",
+  "model": "EleutherAI/pythia-1.4b-deduped",
+  "sample_id": "32c2f2c6c29b66a5b362be84b9eb6f400a3725888311a16203ac1aab6e488459",
+  "protocol_id": "8180316ff4af1914dba3c185d64f6fc41b21a269bf254d3d969b62934b845091",
+  "revision": "554d9c1bae3877f740aece41feb90f912cf9fedc",
+  "core_sha256": "145fb0fecf0b40cc34bb71b3b04d308ad26ceaaf11e8a2a49e68d2683b245d94",
+  "documents": 1000,
+  "zip_name": "resultado_EleutherAI__pythia-1.4b-deduped_32c2f2c6c29b.zip",
+  "zip_sha256": "562c5224ac71093c0a912389c2ea3efebee3c0b462adbd416fc6bcee6b151541",
+  "benchmark_score": 0.5358875373581803,
+  "completed_utc": "2026-10-31T22:47:34.143811+00:00",
+  "meaning": "calculation completed and ZIP validated; does not assert user downloaded it"
+}

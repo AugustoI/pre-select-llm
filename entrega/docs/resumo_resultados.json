@@ -1,0 +1,64 @@
+{
+  "documentos": 1000,
+  "dominios": 50,
+  "modelos": 6,
+  "bpcs": 6000,
+  "forca_media": 0.9092,
+  "forca_mediana": 0.9333333333333333,
+  "forca_minima": 0.6,
+  "forca_maxima": 1.0,
+  "concordancia_total_documentos": 196,
+  "caracteres_totais": 3610511,
+  "correlacao_postos_comprimento_forca": 0.06717410259725483,
+  "distribuicao": [
+    {
+      "concordant_pairs": 9,
+      "comparable_pairs": 15,
+      "documentos": 3,
+      "força": 0.6,
+      "percentual": 0.3
+    },
+    {
+      "concordant_pairs": 10,
+      "comparable_pairs": 15,
+      "documentos": 6,
+      "força": 0.6666666666666666,
+      "percentual": 0.6
+    },
+    {
+      "concordant_pairs": 11,
+      "comparable_pairs": 15,
+      "documentos": 11,
+      "força": 0.7333333333333333,
+      "percentual": 1.1
+    },
+    {
+      "concordant_pairs": 12,
+      "comparable_pairs": 15,
+      "documentos": 113,
+      "força": 0.8,
+      "percentual": 11.3
+    },
+    {
+      "concordant_pairs": 13,
+      "comparable_pairs": 15,
+      "documentos": 260,
+      "força": 0.8666666666666667,
+      "percentual": 26.0
+    },
+    {
+      "concordant_pairs": 14,
+      "comparable_pairs": 15,
+      "documentos": 411,
+      "força": 0.9333333333333333,
+      "percentual": 41.1
+    },
+    {
+      "concordant_pairs": 15,
+      "comparable_pairs": 15,
+      "documentos": 196,
+      "força": 1.0,
+      "percentual": 19.6
+    }
+  ]
+}

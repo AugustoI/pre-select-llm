@@ -1,0 +1,135 @@
+[
+  {
+    "lote": "quatro_modelos",
+    "arquivo": "dados/resultados_por_modelo/resultado_EleutherAI__gpt-neo-1.3B_b1e4f701cb3e.zip",
+    "origem_zip": "workspace (1).zip",
+    "membro": "orkspace/resultado_EleutherAI__gpt-neo-1.3B_b1e4f701cb3e.zip",
+    "sha256": "5689710dfa90ff7749c79f297a7a67fb976aaee7573a7e93c4920a6e97fdfdc3"
+  },
+  {
+    "lote": "quatro_modelos",
+    "arquivo": "dados/resultados_por_modelo/resultado_EleutherAI__pythia-1b-deduped_b1e4f701cb3e.zip",
+    "origem_zip": "workspace (1).zip",
+    "membro": "orkspace/resultado_EleutherAI__pythia-1b-deduped_b1e4f701cb3e.zip",
+    "sha256": "14af3a25da6aec39422492f4691ccd60c79b73f9678f1b9b2c53fdaa8dee3ba8"
+  },
+  {
+    "lote": "quatro_modelos",
+    "arquivo": "dados/resultados_por_modelo/resultado_EleutherAI__pythia-410m-deduped_b1e4f701cb3e.zip",
+    "origem_zip": "workspace (1).zip",
+    "membro": "orkspace/resultado_EleutherAI__pythia-410m-deduped_b1e4f701cb3e.zip",
+    "sha256": "a6a1df0bb82fe94baaf93e84719c32a538580d1bd4c8a2a2fa628edb2d21005c"
+  },
+  {
+    "lote": "quatro_modelos",
+    "arquivo": "dados/resultados_por_modelo/resultado_EleutherAI__pythia-160m-deduped_b1e4f701cb3e.zip",
+    "origem_zip": "workspace (1).zip",
+    "membro": "orkspace/resultado_EleutherAI__pythia-160m-deduped_b1e4f701cb3e.zip",
+    "sha256": "e73308ce7aeff15a7f83b0917df3eeda8c71b71a401644a408353fc486951ca5"
+  },
+  {
+    "lote": "quatro_modelos",
+    "arquivo": "dados/preselect_estado/b1e4f701cb3ee011/EleutherAI__gpt-neo-1.3B.concluido.json",
+    "origem_zip": "workspace (1).zip",
+    "membro": "orkspace/preselect_estado/b1e4f701cb3ee011/EleutherAI__gpt-neo-1.3B.concluido.json",
+    "sha256": "528f1347000d5ea0b640eecbad65a3e8a56c8115ac212edc18a00e22edca4807"
+  },
+  {
+    "lote": "quatro_modelos",
+    "arquivo": "dados/preselect_estado/b1e4f701cb3ee011/EleutherAI__pythia-1b-deduped.concluido.json",
+    "origem_zip": "workspace (1).zip",
+    "membro": "orkspace/preselect_estado/b1e4f701cb3ee011/EleutherAI__pythia-1b-deduped.concluido.json",
+    "sha256": "ff44ecf3141ca264b469c0179bdf2ada85638f74c184c7b09b5bb39d927c9dbb"
+  },
+  {
+    "lote": "quatro_modelos",
+    "arquivo": "dados/preselect_estado/b1e4f701cb3ee011/EleutherAI__pythia-410m-deduped.concluido.json",
+    "origem_zip": "workspace (1).zip",
+    "membro": "orkspace/preselect_estado/b1e4f701cb3ee011/EleutherAI__pythia-410m-deduped.concluido.json",
+    "sha256": "8bfbe0d57c28dcf4c31c8a9fc31a2e6e32bc7aa4767683e2ce71d9cfe58bb0ad"
+  },
+  {
+    "lote": "quatro_modelos",
+    "arquivo": "dados/preselect_estado/b1e4f701cb3ee011/EleutherAI__pythia-160m-deduped.concluido.json",
+    "origem_zip": "workspace (1).zip",
+    "membro": "orkspace/preselect_estado/b1e4f701cb3ee011/EleutherAI__pythia-160m-deduped.concluido.json",
+    "sha256": "1977a5d0c51dbc9228cbe10f19ce48ebdd0ea4e3576362ef45c04ad43abd1f59"
+  },
+  {
+    "lote": "quatro_modelos",
+    "arquivo": "dados/preselect_estado/b1e4f701cb3ee011/pacote_local.json",
+    "origem_zip": "workspace (1).zip",
+    "membro": "orkspace/preselect_estado/b1e4f701cb3ee011/pacote_local.json",
+    "sha256": "fbc9caa222f194dc2ab693cfb229d5b5385086671f062525f8057ee0ea26088e"
+  },
+  {
+    "lote": "dois_adicionais",
+    "arquivo": "dados/resultados_por_modelo/resultado_EleutherAI__gpt-neo-2.7B_32c2f2c6c29b.zip",
+    "origem_zip": "Ultima entrega/workspace (1).zip",
+    "membro": "orkspace/resultado_EleutherAI__gpt-neo-2.7B_32c2f2c6c29b.zip",
+    "sha256": "2f8720c17bf93506d0e7dbef52d636572a41b1c3a1e965210b1f560e8418ef45"
+  },
+  {
+    "lote": "dois_adicionais",
+    "arquivo": "dados/resultados_por_modelo/resultado_EleutherAI__pythia-1.4b-deduped_32c2f2c6c29b.zip",
+    "origem_zip": "Ultima entrega/workspace (1).zip",
+    "membro": "orkspace/resultado_EleutherAI__pythia-1.4b-deduped_32c2f2c6c29b.zip",
+    "sha256": "562c5224ac71093c0a912389c2ea3efebee3c0b462adbd416fc6bcee6b151541"
+  },
+  {
+    "lote": "dois_adicionais",
+    "arquivo": "dados/preselect_estado/32c2f2c6c29b66a5/EleutherAI__gpt-neo-2.7B.concluido.json",
+    "origem_zip": "Ultima entrega/workspace (1).zip",
+    "membro": "orkspace/preselect_estado/32c2f2c6c29b66a5/EleutherAI__gpt-neo-2.7B.concluido.json",
+    "sha256": "1752585d2a43425f970248af5d593adbcdf6d0d9f07bc4377becdd7d2aacb05b"
+  },
+  {
+    "lote": "dois_adicionais",
+    "arquivo": "dados/preselect_estado/32c2f2c6c29b66a5/EleutherAI__pythia-1.4b-deduped.concluido.json",
+    "origem_zip": "Ultima entrega/workspace (1).zip",
+    "membro": "orkspace/preselect_estado/32c2f2c6c29b66a5/EleutherAI__pythia-1.4b-deduped.concluido.json",
+    "sha256": "1c8d59e2c3be7231db8327d0d24f9d4f2ef8f8cd526bf93e07dbc208cce4d29f"
+  },
+  {
+    "lote": "dois_adicionais",
+    "arquivo": "dados/preselect_estado/32c2f2c6c29b66a5/pacote_local.json",
+    "origem_zip": "Ultima entrega/workspace (1).zip",
+    "membro": "orkspace/preselect_estado/32c2f2c6c29b66a5/pacote_local.json",
+    "sha256": "29bc29c899883424a4629c67dc46f830583346e83ccd64537754de995c4393df"
+  },
+  {
+    "lote": "dois_adicionais",
+    "arquivo": "dados/preselect_estado/b1e4f701cb3ee011/EleutherAI__gpt-neo-1.3B.concluido.json",
+    "origem_zip": "Ultima entrega/workspace (1).zip",
+    "membro": "orkspace/preselect_estado/b1e4f701cb3ee011/EleutherAI__gpt-neo-1.3B.concluido.json",
+    "sha256": "528f1347000d5ea0b640eecbad65a3e8a56c8115ac212edc18a00e22edca4807"
+  },
+  {
+    "lote": "dois_adicionais",
+    "arquivo": "dados/preselect_estado/b1e4f701cb3ee011/EleutherAI__pythia-1b-deduped.concluido.json",
+    "origem_zip": "Ultima entrega/workspace (1).zip",
+    "membro": "orkspace/preselect_estado/b1e4f701cb3ee011/EleutherAI__pythia-1b-deduped.concluido.json",
+    "sha256": "ff44ecf3141ca264b469c0179bdf2ada85638f74c184c7b09b5bb39d927c9dbb"
+  },
+  {
+    "lote": "dois_adicionais",
+    "arquivo": "dados/preselect_estado/b1e4f701cb3ee011/EleutherAI__pythia-410m-deduped.concluido.json",
+    "origem_zip": "Ultima entrega/workspace (1).zip",
+    "membro": "orkspace/preselect_estado/b1e4f701cb3ee011/EleutherAI__pythia-410m-deduped.concluido.json",
+    "sha256": "8bfbe0d57c28dcf4c31c8a9fc31a2e6e32bc7aa4767683e2ce71d9cfe58bb0ad"
+  },
+  {
+    "lote": "dois_adicionais",
+    "arquivo": "dados/preselect_estado/b1e4f701cb3ee011/EleutherAI__pythia-160m-deduped.concluido.json",
+    "origem_zip": "Ultima entrega/workspace (1).zip",
+    "membro": "orkspace/preselect_estado/b1e4f701cb3ee011/EleutherAI__pythia-160m-deduped.concluido.json",
+    "sha256": "1977a5d0c51dbc9228cbe10f19ce48ebdd0ea4e3576362ef45c04ad43abd1f59"
+  },
+  {
+    "lote": "dois_adicionais",
+    "arquivo": "dados/preselect_estado/b1e4f701cb3ee011/pacote_local.json",
+    "origem_zip": "Ultima entrega/workspace (1).zip",
+    "membro": "orkspace/preselect_estado/b1e4f701cb3ee011/pacote_local.json",
+    "sha256": "fbc9caa222f194dc2ab693cfb229d5b5385086671f062525f8057ee0ea26088e"
+  }
+]

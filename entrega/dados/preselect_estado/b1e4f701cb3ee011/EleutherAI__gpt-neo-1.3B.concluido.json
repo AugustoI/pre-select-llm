@@ -1,0 +1,14 @@
+{
+  "status": "complete",
+  "model": "EleutherAI/gpt-neo-1.3B",
+  "sample_id": "b1e4f701cb3ee01105c5201baeb57267916755bbe657ee3e921e42cd452cbaa6",
+  "protocol_id": "8180316ff4af1914dba3c185d64f6fc41b21a269bf254d3d969b62934b845091",
+  "revision": "dbe59a7f4a88d01d1ba9798d78dbe3fe038792c8",
+  "core_sha256": "145fb0fecf0b40cc34bb71b3b04d308ad26ceaaf11e8a2a49e68d2683b245d94",
+  "documents": 1000,
+  "zip_name": "resultado_EleutherAI__gpt-neo-1.3B_b1e4f701cb3e.zip",
+  "zip_sha256": "5689710dfa90ff7749c79f297a7a67fb976aaee7573a7e93c4920a6e97fdfdc3",
+  "benchmark_score": 0.537942267698332,
+  "completed_utc": "2026-10-31T19:36:04.401062+00:00",
+  "meaning": "calculation completed and ZIP validated; does not assert user downloaded it"
+}

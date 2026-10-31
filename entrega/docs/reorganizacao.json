@@ -1,0 +1,92 @@
+[
+  {
+    "Source": "entrega",
+    "Destination": "arquivo_local/2026-10-31/entrega_smoke_test_25_documentos",
+    "Reason": "Entrega antiga de 25 documentos, substituida pela entrega atual de 1000 documentos e seis modelos"
+  },
+  {
+    "Source": "runpod_notebook",
+    "Destination": "arquivo_local/2026-10-31/runpod_notebook",
+    "Reason": "Historico local; substituido pela entrega dos seis modelos"
+  },
+  {
+    "Source": "preselect_pythia_mini",
+    "Destination": "arquivo_local/2026-10-31/preselect_pythia_mini",
+    "Reason": "Historico local; substituido pela entrega dos seis modelos"
+  },
+  {
+    "Source": "upload_runpod",
+    "Destination": "arquivo_local/2026-10-31/upload_runpod",
+    "Reason": "Historico local; substituido pela entrega dos seis modelos"
+  },
+  {
+    "Source": "workspace (1)",
+    "Destination": "arquivo_local/2026-10-31/workspace (1)",
+    "Reason": "Historico local; substituido pela entrega dos seis modelos"
+  },
+  {
+    "Source": "workspace (1).zip",
+    "Destination": "arquivo_local/2026-10-31/workspace (1).zip",
+    "Reason": "Historico local; substituido pela entrega dos seis modelos"
+  },
+  {
+    "Source": "Ultima entrega",
+    "Destination": "arquivo_local/2026-10-31/Ultima entrega",
+    "Reason": "Historico local; substituido pela entrega dos seis modelos"
+  },
+  {
+    "Source": "runpod_por_modelo",
+    "Destination": "arquivo_local/2026-10-31/runpod_por_modelo",
+    "Reason": "Historico local; substituido pela entrega dos seis modelos"
+  },
+  {
+    "Source": "runpod_mais_dois",
+    "Destination": "arquivo_local/2026-10-31/runpod_mais_dois",
+    "Reason": "Historico local; substituido pela entrega dos seis modelos"
+  },
+  {
+    "Source": "PLANO_REPRODUCAO_RUNPOD.md",
+    "Destination": "arquivo_local/2026-10-31/PLANO_REPRODUCAO_RUNPOD.md",
+    "Reason": "Historico local; substituido pela entrega dos seis modelos"
+  },
+  {
+    "Source": "data_processing",
+    "Destination": "referencia_artigo/data_processing",
+    "Reason": "Codigo original do artigo preservado como referencia"
+  },
+  {
+    "Source": "figures",
+    "Destination": "referencia_artigo/figures",
+    "Reason": "Codigo original do artigo preservado como referencia"
+  },
+  {
+    "Source": "Megatron",
+    "Destination": "referencia_artigo/Megatron",
+    "Reason": "Codigo original do artigo preservado como referencia"
+  },
+  {
+    "Source": "Dockerfile",
+    "Destination": "referencia_artigo/Dockerfile",
+    "Reason": "Codigo original do artigo preservado como referencia"
+  },
+  {
+    "Source": "pipeline_child.sh",
+    "Destination": "referencia_artigo/pipeline_child.sh",
+    "Reason": "Codigo original do artigo preservado como referencia"
+  },
+  {
+    "Source": "pipeline_multi_node.sh",
+    "Destination": "referencia_artigo/pipeline_multi_node.sh",
+    "Reason": "Codigo original do artigo preservado como referencia"
+  },
+  {
+    "Source": "pipeline.sh",
+    "Destination": "referencia_artigo/pipeline.sh",
+    "Reason": "Codigo original do artigo preservado como referencia"
+  },
+  {
+    "Source": "README.md",
+    "Destination": "referencia_artigo/README.md",
+    "Reason": "Codigo original do artigo preservado como referencia"
+  }
+]

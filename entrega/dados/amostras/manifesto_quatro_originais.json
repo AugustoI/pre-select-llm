@@ -1,0 +1,111 @@
+{
+  "format": 1,
+  "documents_sha256": "b96d98eb64c4a2cc2e5f94722fccee0a338f18ded03e537544708edf22947e80",
+  "count": 1000,
+  "protocol": {
+    "context": 1024,
+    "stride": 512,
+    "dtype": "bfloat16",
+    "seed": 42,
+    "benchmarks": {
+      "hellaswag": "acc_norm,none",
+      "arc_easy": "acc_norm,none",
+      "boolq": "acc,none"
+    },
+    "benchmark_limit": null,
+    "num_fewshot": 0,
+    "lm_eval_version": "0.4.9.2",
+    "core_sha256": "145fb0fecf0b40cc34bb71b3b04d308ad26ceaaf11e8a2a49e68d2683b245d94",
+    "method": "isolated documents, BOS/EOS prefix, no truncation, NLL / (Unicode characters * ln(2))"
+  },
+  "protocol_id": "8180316ff4af1914dba3c185d64f6fc41b21a269bf254d3d969b62934b845091",
+  "model_revisions": {
+    "EleutherAI/pythia-160m-deduped": "582159a2dfe3e712a8d47ae83dec95ae3bde8e7e",
+    "EleutherAI/pythia-410m-deduped": "c4fc8d586d62df497f1f9b69d66d3ca419992d3e",
+    "EleutherAI/pythia-1b-deduped": "7199d8fc61a6d565cd1f3c62bf11525b563e13b2",
+    "EleutherAI/gpt-neo-1.3B": "dbe59a7f4a88d01d1ba9798d78dbe3fe038792c8"
+  },
+  "sampling": {
+    "domains": 50,
+    "per_domain": 20,
+    "shards": 4,
+    "scan": 50000,
+    "seed": 42
+  },
+  "sources": [
+    {
+      "url": "https://data.commoncrawl.org/contrib/datacomp/DCLM-refinedweb/global-shard_07_of_10/local-shard_5_of_10/shard_00002108_processed.jsonl.zstd",
+      "etag": "\"dae45e73327feeb7d6c38c3c2b5d68aa\"",
+      "bytes": 123319846
+    },
+    {
+      "url": "https://data.commoncrawl.org/contrib/datacomp/DCLM-refinedweb/global-shard_02_of_10/local-shard_1_of_10/shard_00002447_processed.jsonl.zstd",
+      "etag": "\"a1b69b3d29a284e42fc15249e4a02744\"",
+      "bytes": 89662012
+    },
+    {
+      "url": "https://data.commoncrawl.org/contrib/datacomp/DCLM-refinedweb/global-shard_01_of_10/local-shard_2_of_10/shard_00000421_processed.jsonl.zstd",
+      "etag": "\"b88725c24a90c8a55863e175390f1474\"",
+      "bytes": 151252422
+    },
+    {
+      "url": "https://data.commoncrawl.org/contrib/datacomp/DCLM-refinedweb/global-shard_08_of_10/local-shard_5_of_10/shard_00002196_processed.jsonl.zstd",
+      "etag": "\"53cb3d5a7b725c1787c2e24f20d4cf26\"",
+      "bytes": 133357674
+    }
+  ],
+  "sample_per_domain": {
+    "en.wikipedia.org": 20,
+    "www.theguardian.com": 20,
+    "www.nytimes.com": 20,
+    "www.sandiegouniontribune.com": 20,
+    "www.urbandictionary.com": 20,
+    "www.wsj.com": 20,
+    "www.bloomberg.com": 20,
+    "stackoverflow.com": 20,
+    "www.theregister.co.uk": 20,
+    "bleacherreport.com": 20,
+    "www.cnet.com": 20,
+    "www.thestreet.com": 20,
+    "www.fanfiction.net": 20,
+    "www.ncbi.nlm.nih.gov": 20,
+    "www.ocregister.com": 20,
+    "www.nj.com": 20,
+    "www.mlive.com": 20,
+    "www.huffingtonpost.com": 20,
+    "blogs.wsj.com": 20,
+    "www.travelpod.com": 20,
+    "www.forbes.com": 20,
+    "thefiringline.com": 20,
+    "lists.w3.org": 20,
+    "www.engadget.com": 20,
+    "www.telegraph.co.uk": 20,
+    "www.washingtonpost.com": 20,
+    "www.fool.com": 20,
+    "www.upi.com": 20,
+    "abcnews.go.com": 20,
+    "www.businessinsider.com": 20,
+    "www.imdb.com": 20,
+    "www.hindustantimes.com": 20,
+    "www.trendhunter.com": 20,
+    "www.bbc.co.uk": 20,
+    "www.rediff.com": 20,
+    "www.beeradvocate.com": 20,
+    "www.osnews.com": 20,
+    "www.popmatters.com": 20,
+    "gizmodo.com": 20,
+    "lists.debian.org": 20,
+    "phys.org": 20,
+    "techcrunch.com": 20,
+    "tvtropes.org": 20,
+    "www.meetup.com": 20,
+    "www.oxforddictionaries.com": 20,
+    "en.m.wikipedia.org": 20,
+    "www.sparkpeople.com": 20,
+    "chowhound.chow.com": 20,
+    "gawker.com": 20,
+    "www.bio.net": 20
+  },
+  "scope": "new sample from scanned prefixes of DCLM-refinedweb source shards; not exact author sample",
+  "sample_id": "b1e4f701cb3ee01105c5201baeb57267916755bbe657ee3e921e42cd452cbaa6"
+}

@@ -1,0 +1,4 @@
+JSONL contém os textos integrais, origem, BPCs e força entre 0 e 1. CSV omite o texto.
+Força = fração de pares em que maior capacidade corresponde a menor BPC.
+Empates de capacidade são excluídos e reportados. Empates de BPC não contam.
+Nova amostra e suíte reduzida; não são rótulos originais dos autores.

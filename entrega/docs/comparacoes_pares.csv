@@ -1,0 +1,16 @@
+﻿menor capacidade,maior capacidade,concordantes,não concordantes,empates de BPC,concordância (%)
+pythia-1b-deduped,pythia-1.4b-deduped,439,561,0,43.9
+pythia-1b-deduped,gpt-neo-1.3B,640,360,0,64.0
+pythia-1.4b-deduped,gpt-neo-1.3B,663,337,0,66.3
+gpt-neo-1.3B,gpt-neo-2.7B,965,35,0,96.5
+pythia-1b-deduped,gpt-neo-2.7B,966,34,0,96.6
+pythia-1.4b-deduped,gpt-neo-2.7B,967,33,0,96.7
+pythia-410m-deduped,pythia-1b-deduped,999,1,0,99.9
+pythia-410m-deduped,gpt-neo-2.7B,999,1,0,99.9
+pythia-160m-deduped,gpt-neo-2.7B,1000,0,0,100.0
+pythia-410m-deduped,pythia-1.4b-deduped,1000,0,0,100.0
+pythia-160m-deduped,pythia-1.4b-deduped,1000,0,0,100.0
+pythia-160m-deduped,pythia-410m-deduped,1000,0,0,100.0
+pythia-160m-deduped,pythia-1b-deduped,1000,0,0,100.0
+pythia-160m-deduped,gpt-neo-1.3B,1000,0,0,100.0
+pythia-410m-deduped,gpt-neo-1.3B,1000,0,0,100.0

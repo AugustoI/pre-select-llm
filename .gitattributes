@@ -1,0 +1,2 @@
+# Preservar os bytes usados nos hashes de protocolo e no manifesto da entrega.
+entrega/** -text
