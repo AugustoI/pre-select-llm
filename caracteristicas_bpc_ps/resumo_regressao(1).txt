@@ -1,0 +1,32 @@
+X1..X4 = ['lex_frac_numeros', 'lex_frac_boilerplate', 'org_formulas_1000c', 'coe_conectivos_contraste_100p']
+
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:        Y_bpc_invertido   R-squared:                       0.156
+Model:                            OLS   Adj. R-squared:                  0.153
+Method:                 Least Squares   F-statistic:                     46.04
+Date:                Thu, 12 Nov 2026   Prob (F-statistic):           1.62e-35
+Time:                        16:40:20   Log-Likelihood:                 98.166
+No. Observations:                1000   AIC:                            -186.3
+Df Residuals:                     995   BIC:                            -161.8
+Df Model:                           4                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+Intercept     -0.9824      0.016    -59.772      0.000      -1.015      -0.950
+X1            -1.7714      0.263     -6.726      0.000      -2.288      -1.255
+X2            -7.7319      0.746    -10.365      0.000      -9.196      -6.268
+X3            -0.0211      0.006     -3.245      0.001      -0.034      -0.008
+X4            -0.0372      0.012     -2.989      0.003      -0.062      -0.013
+==============================================================================
+Omnibus:                      170.704   Durbin-Watson:                   2.064
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              323.567
+Skew:                          -1.016   Prob(JB):                     5.48e-71
+Kurtosis:                       4.908   Cond. No.                         150.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+Legenda: X1..X4 correspondem, nesta ordem, às características acima.
