@@ -1,0 +1,459 @@
+
+======================================================================
+Y = -(BPC medio dos 6 modelos) — conjunto A (herdado da etapa anterior)
+======================================================================
+SIMPLES
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                      y   R-squared:                       0.156
+Model:                            OLS   Adj. R-squared:                  0.153
+Method:                 Least Squares   F-statistic:                     46.04
+Date:                Thu, 12 Nov 2026   Prob (F-statistic):           1.62e-35
+Time:                        17:01:52   Log-Likelihood:                 98.166
+No. Observations:                1000   AIC:                            -186.3
+Df Residuals:                     995   BIC:                            -161.8
+Df Model:                           4                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+Intercept     -0.9824      0.016    -59.772      0.000      -1.015      -0.950
+X1            -1.7714      0.263     -6.726      0.000      -2.288      -1.255
+X2            -7.7319      0.746    -10.365      0.000      -9.196      -6.268
+X3            -0.0211      0.006     -3.245      0.001      -0.034      -0.008
+X4            -0.0372      0.012     -2.989      0.003      -0.062      -0.013
+==============================================================================
+Omnibus:                      170.704   Durbin-Watson:                   2.098
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              323.567
+Skew:                          -1.016   Prob(JB):                     5.48e-71
+Kurtosis:                       4.908   Cond. No.                         150.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+COM CONTROLE
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                      y   R-squared:                       0.652
+Model:                            OLS   Adj. R-squared:                  0.633
+Method:                 Least Squares   F-statistic:                     32.84
+Date:                Thu, 12 Nov 2026   Prob (F-statistic):          3.95e-179
+Time:                        17:01:52   Log-Likelihood:                 541.61
+No. Observations:                1000   AIC:                            -973.2
+Df Residuals:                     945   BIC:                            -703.3
+Df Model:                          54                                         
+Covariance Type:            nonrobust                                         
+=============================================================================================================
+                                                coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------------------
+Intercept                                    -1.6427      0.061    -26.830      0.000      -1.763      -1.523
+C(domain)[T.bleacherreport.com]               0.0258      0.046      0.560      0.575      -0.064       0.116
+C(domain)[T.blogs.wsj.com]                    0.0367      0.046      0.801      0.423      -0.053       0.127
+C(domain)[T.chowhound.chow.com]              -0.1620      0.046     -3.493      0.000      -0.253      -0.071
+C(domain)[T.en.m.wikipedia.org]              -0.0946      0.048     -1.968      0.049      -0.189      -0.000
+C(domain)[T.en.wikipedia.org]                -0.0767      0.047     -1.629      0.104      -0.169       0.016
+C(domain)[T.gawker.com]                      -0.0613      0.046     -1.331      0.184      -0.152       0.029
+C(domain)[T.gizmodo.com]                     -0.0326      0.047     -0.700      0.484      -0.124       0.059
+C(domain)[T.lists.debian.org]                -0.2489      0.046     -5.368      0.000      -0.340      -0.158
+C(domain)[T.lists.w3.org]                    -0.1762      0.047     -3.775      0.000      -0.268      -0.085
+C(domain)[T.phys.org]                         0.1222      0.046      2.653      0.008       0.032       0.213
+C(domain)[T.stackoverflow.com]               -0.0384      0.047     -0.825      0.410      -0.130       0.053
+C(domain)[T.techcrunch.com]                   0.0035      0.046      0.077      0.939      -0.087       0.094
+C(domain)[T.thefiringline.com]               -0.2457      0.047     -5.191      0.000      -0.339      -0.153
+C(domain)[T.tvtropes.org]                    -0.2262      0.046     -4.898      0.000      -0.317      -0.136
+C(domain)[T.www.bbc.co.uk]                    0.1057      0.046      2.305      0.021       0.016       0.196
+C(domain)[T.www.beeradvocate.com]            -0.3177      0.048     -6.688      0.000      -0.411      -0.224
+C(domain)[T.www.bio.net]                     -0.3414      0.046     -7.360      0.000      -0.432      -0.250
+C(domain)[T.www.bloomberg.com]                0.1272      0.047      2.711      0.007       0.035       0.219
+C(domain)[T.www.businessinsider.com]          0.0201      0.046      0.439      0.661      -0.070       0.110
+C(domain)[T.www.cnet.com]                     0.0312      0.046      0.679      0.497      -0.059       0.121
+C(domain)[T.www.engadget.com]                -0.0467      0.046     -1.015      0.310      -0.137       0.044
+C(domain)[T.www.fanfiction.net]              -0.1944      0.048     -4.055      0.000      -0.289      -0.100
+C(domain)[T.www.fool.com]                     0.0191      0.046      0.412      0.681      -0.072       0.110
+C(domain)[T.www.forbes.com]                  -0.0247      0.046     -0.536      0.592      -0.115       0.066
+C(domain)[T.www.hindustantimes.com]           0.0616      0.046      1.338      0.181      -0.029       0.152
+C(domain)[T.www.huffingtonpost.com]          -0.0600      0.046     -1.303      0.193      -0.150       0.030
+C(domain)[T.www.imdb.com]                    -0.2506      0.046     -5.405      0.000      -0.342      -0.160
+C(domain)[T.www.meetup.com]                  -0.2059      0.049     -4.220      0.000      -0.302      -0.110
+C(domain)[T.www.mlive.com]                    0.0513      0.046      1.116      0.265      -0.039       0.142
+C(domain)[T.www.ncbi.nlm.nih.gov]             0.1816      0.046      3.938      0.000       0.091       0.272
+C(domain)[T.www.nj.com]                       0.1269      0.046      2.743      0.006       0.036       0.218
+C(domain)[T.www.nytimes.com]                  0.0937      0.046      2.044      0.041       0.004       0.184
+C(domain)[T.www.ocregister.com]               0.1054      0.046      2.288      0.022       0.015       0.196
+C(domain)[T.www.osnews.com]                  -0.1565      0.048     -3.280      0.001      -0.250      -0.063
+C(domain)[T.www.oxforddictionaries.com]      -0.1213      0.047     -2.566      0.010      -0.214      -0.029
+C(domain)[T.www.popmatters.com]              -0.2717      0.046     -5.925      0.000      -0.362      -0.182
+C(domain)[T.www.rediff.com]                  -0.0892      0.046     -1.919      0.055      -0.180       0.002
+C(domain)[T.www.sandiegouniontribune.com]     0.0754      0.046      1.642      0.101      -0.015       0.166
+C(domain)[T.www.sparkpeople.com]             -0.1075      0.047     -2.283      0.023      -0.200      -0.015
+C(domain)[T.www.telegraph.co.uk]             -0.0455      0.046     -0.989      0.323      -0.136       0.045
+C(domain)[T.www.theguardian.com]              0.0025      0.046      0.054      0.957      -0.088       0.093
+C(domain)[T.www.theregister.co.uk]           -0.0583      0.046     -1.273      0.203      -0.148       0.032
+C(domain)[T.www.thestreet.com]                0.0713      0.048      1.488      0.137      -0.023       0.165
+C(domain)[T.www.travelpod.com]               -0.2063      0.046     -4.468      0.000      -0.297      -0.116
+C(domain)[T.www.trendhunter.com]             -0.1743      0.046     -3.761      0.000      -0.265      -0.083
+C(domain)[T.www.upi.com]                      0.1445      0.046      3.121      0.002       0.054       0.235
+C(domain)[T.www.urbandictionary.com]         -0.4765      0.047    -10.173      0.000      -0.568      -0.385
+C(domain)[T.www.washingtonpost.com]           0.0469      0.046      1.022      0.307      -0.043       0.137
+C(domain)[T.www.wsj.com]                     -0.0178      0.046     -0.385      0.701      -0.109       0.073
+X1                                           -1.1926      0.215     -5.552      0.000      -1.614      -0.771
+X2                                           -3.6898      0.695     -5.310      0.000      -5.053      -2.326
+X3                                           -0.0149      0.005     -2.825      0.005      -0.025      -0.005
+X4                                           -0.0168      0.009     -1.854      0.064      -0.035       0.001
+log_tamanho                                   0.0857      0.006     13.718      0.000       0.073       0.098
+==============================================================================
+Omnibus:                      277.771   Durbin-Watson:                   2.036
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             1621.889
+Skew:                          -1.140   Prob(JB):                         0.00
+Kurtosis:                       8.807   Cond. No.                     1.19e+03
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 1.19e+03. This might indicate that there are
+strong multicollinearity or other numerical problems.
+
+
+======================================================================
+Y = -(BPC medio dos 6 modelos) — conjunto B (selecionado para este alvo)
+======================================================================
+SIMPLES
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                      y   R-squared:                       0.283
+Model:                            OLS   Adj. R-squared:                  0.280
+Method:                 Least Squares   F-statistic:                     98.02
+Date:                Thu, 12 Nov 2026   Prob (F-statistic):           2.35e-70
+Time:                        17:01:52   Log-Likelihood:                 179.37
+No. Observations:                1000   AIC:                            -348.7
+Df Residuals:                     995   BIC:                            -324.2
+Df Model:                           4                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+Intercept     -1.1957      0.064    -18.653      0.000      -1.321      -1.070
+X1             0.2831      0.029      9.771      0.000       0.226       0.340
+X2            -1.0925      0.182     -6.011      0.000      -1.449      -0.736
+X3            -0.3248      0.033     -9.708      0.000      -0.390      -0.259
+X4             0.2210      0.056      3.947      0.000       0.111       0.331
+==============================================================================
+Omnibus:                      171.155   Durbin-Watson:                   2.059
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              326.599
+Skew:                          -1.015   Prob(JB):                     1.20e-71
+Kurtosis:                       4.928   Cond. No.                         42.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+COM CONTROLE
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                      y   R-squared:                       0.699
+Model:                            OLS   Adj. R-squared:                  0.681
+Method:                 Least Squares   F-statistic:                     40.58
+Date:                Thu, 12 Nov 2026   Prob (F-statistic):          1.07e-207
+Time:                        17:01:52   Log-Likelihood:                 613.11
+No. Observations:                1000   AIC:                            -1116.
+Df Residuals:                     945   BIC:                            -846.3
+Df Model:                          54                                         
+Covariance Type:            nonrobust                                         
+=============================================================================================================
+                                                coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------------------
+Intercept                                    -1.7699      0.072    -24.575      0.000      -1.911      -1.629
+C(domain)[T.bleacherreport.com]               0.0233      0.043      0.542      0.588      -0.061       0.108
+C(domain)[T.blogs.wsj.com]                    0.0151      0.043      0.352      0.725      -0.069       0.099
+C(domain)[T.chowhound.chow.com]              -0.1515      0.043     -3.534      0.000      -0.236      -0.067
+C(domain)[T.en.m.wikipedia.org]              -0.0125      0.046     -0.274      0.784      -0.102       0.077
+C(domain)[T.en.wikipedia.org]                -0.0119      0.044     -0.269      0.788      -0.099       0.075
+C(domain)[T.gawker.com]                      -0.0194      0.043     -0.449      0.653      -0.104       0.065
+C(domain)[T.gizmodo.com]                     -0.0495      0.044     -1.134      0.257      -0.135       0.036
+C(domain)[T.lists.debian.org]                -0.1935      0.043     -4.459      0.000      -0.279      -0.108
+C(domain)[T.lists.w3.org]                    -0.1584      0.043     -3.683      0.000      -0.243      -0.074
+C(domain)[T.phys.org]                         0.0637      0.043      1.486      0.138      -0.020       0.148
+C(domain)[T.stackoverflow.com]               -0.0112      0.043     -0.260      0.795      -0.096       0.073
+C(domain)[T.techcrunch.com]                  -0.0604      0.043     -1.405      0.160      -0.145       0.024
+C(domain)[T.thefiringline.com]               -0.2352      0.044     -5.403      0.000      -0.321      -0.150
+C(domain)[T.tvtropes.org]                    -0.1503      0.043     -3.478      0.001      -0.235      -0.065
+C(domain)[T.www.bbc.co.uk]                    0.0938      0.043      2.192      0.029       0.010       0.178
+C(domain)[T.www.beeradvocate.com]            -0.1995      0.045     -4.393      0.000      -0.289      -0.110
+C(domain)[T.www.bio.net]                     -0.3105      0.043     -7.180      0.000      -0.395      -0.226
+C(domain)[T.www.bloomberg.com]                0.1044      0.044      2.357      0.019       0.017       0.191
+C(domain)[T.www.businessinsider.com]         -0.0235      0.043     -0.548      0.584      -0.108       0.061
+C(domain)[T.www.cnet.com]                    -0.0100      0.043     -0.233      0.816      -0.094       0.074
+C(domain)[T.www.engadget.com]                -0.0568      0.043     -1.330      0.184      -0.141       0.027
+C(domain)[T.www.fanfiction.net]              -0.1649      0.044     -3.781      0.000      -0.250      -0.079
+C(domain)[T.www.fool.com]                    -0.0453      0.043     -1.059      0.290      -0.129       0.039
+C(domain)[T.www.forbes.com]                  -0.0462      0.043     -1.079      0.281      -0.130       0.038
+C(domain)[T.www.hindustantimes.com]           0.0275      0.043      0.641      0.522      -0.057       0.112
+C(domain)[T.www.huffingtonpost.com]          -0.0922      0.043     -2.155      0.031      -0.176      -0.008
+C(domain)[T.www.imdb.com]                    -0.1243      0.045     -2.755      0.006      -0.213      -0.036
+C(domain)[T.www.meetup.com]                  -0.1455      0.045     -3.220      0.001      -0.234      -0.057
+C(domain)[T.www.mlive.com]                   -0.0065      0.043     -0.153      0.879      -0.091       0.078
+C(domain)[T.www.ncbi.nlm.nih.gov]             0.2828      0.045      6.266      0.000       0.194       0.371
+C(domain)[T.www.nj.com]                       0.0202      0.043      0.468      0.640      -0.065       0.105
+C(domain)[T.www.nytimes.com]                  0.0544      0.043      1.270      0.204      -0.030       0.138
+C(domain)[T.www.ocregister.com]               0.0528      0.043      1.231      0.219      -0.031       0.137
+C(domain)[T.www.osnews.com]                  -0.1470      0.044     -3.371      0.001      -0.233      -0.061
+C(domain)[T.www.oxforddictionaries.com]      -0.1500      0.043     -3.467      0.001      -0.235      -0.065
+C(domain)[T.www.popmatters.com]              -0.1968      0.043     -4.550      0.000      -0.282      -0.112
+C(domain)[T.www.rediff.com]                  -0.0477      0.044     -1.089      0.276      -0.134       0.038
+C(domain)[T.www.sandiegouniontribune.com]     0.0271      0.043      0.633      0.527      -0.057       0.111
+C(domain)[T.www.sparkpeople.com]             -0.0779      0.043     -1.798      0.073      -0.163       0.007
+C(domain)[T.www.telegraph.co.uk]             -0.0415      0.043     -0.960      0.337      -0.126       0.043
+C(domain)[T.www.theguardian.com]             -0.0364      0.043     -0.848      0.397      -0.121       0.048
+C(domain)[T.www.theregister.co.uk]           -0.0891      0.043     -2.083      0.038      -0.173      -0.005
+C(domain)[T.www.thestreet.com]                0.0643      0.045      1.438      0.151      -0.023       0.152
+C(domain)[T.www.travelpod.com]               -0.1664      0.043     -3.829      0.000      -0.252      -0.081
+C(domain)[T.www.trendhunter.com]             -0.1640      0.043     -3.800      0.000      -0.249      -0.079
+C(domain)[T.www.upi.com]                      0.0944      0.043      2.198      0.028       0.010       0.179
+C(domain)[T.www.urbandictionary.com]         -0.4755      0.043    -11.002      0.000      -0.560      -0.391
+C(domain)[T.www.washingtonpost.com]           0.0603      0.043      1.411      0.158      -0.024       0.144
+C(domain)[T.www.wsj.com]                      0.0137      0.043      0.318      0.751      -0.071       0.098
+X1                                            0.1686      0.022      7.584      0.000       0.125       0.212
+X2                                           -0.9000      0.141     -6.395      0.000      -1.176      -0.624
+X3                                           -0.2488      0.034     -7.347      0.000      -0.315      -0.182
+X4                                            0.1781      0.044      4.005      0.000       0.091       0.265
+log_tamanho                                   0.0867      0.006     15.450      0.000       0.076       0.098
+==============================================================================
+Omnibus:                      228.655   Durbin-Watson:                   2.006
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              967.198
+Skew:                          -1.013   Prob(JB):                    9.46e-211
+Kurtosis:                       7.371   Cond. No.                         401.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+
+======================================================================
+Y = forca preditiva (predictive strength) — conjunto A (herdado da etapa anterior)
+======================================================================
+SIMPLES
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                      y   R-squared:                       0.101
+Model:                            OLS   Adj. R-squared:                  0.097
+Method:                 Least Squares   F-statistic:                     27.85
+Date:                Thu, 12 Nov 2026   Prob (F-statistic):           5.98e-22
+Time:                        17:01:52   Log-Likelihood:                 1319.2
+No. Observations:                1000   AIC:                            -2628.
+Df Residuals:                     995   BIC:                            -2604.
+Df Model:                           4                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+Intercept      0.9259      0.005    191.020      0.000       0.916       0.935
+X1            -0.3121      0.078     -4.017      0.000      -0.464      -0.160
+X2            -1.5541      0.220     -7.065      0.000      -1.986      -1.122
+X3            -0.0071      0.002     -3.727      0.000      -0.011      -0.003
+X4             0.0117      0.004      3.185      0.001       0.004       0.019
+==============================================================================
+Omnibus:                       46.926   Durbin-Watson:                   1.955
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               52.886
+Skew:                          -0.525   Prob(JB):                     3.28e-12
+Kurtosis:                       3.406   Cond. No.                         150.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+COM CONTROLE
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                      y   R-squared:                       0.226
+Model:                            OLS   Adj. R-squared:                  0.181
+Method:                 Least Squares   F-statistic:                     5.096
+Date:                Thu, 12 Nov 2026   Prob (F-statistic):           1.18e-26
+Time:                        17:01:52   Log-Likelihood:                 1394.0
+No. Observations:                1000   AIC:                            -2678.
+Df Residuals:                     945   BIC:                            -2408.
+Df Model:                          54                                         
+Covariance Type:            nonrobust                                         
+=============================================================================================================
+                                                coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------------------
+Intercept                                     0.9026      0.026     34.572      0.000       0.851       0.954
+C(domain)[T.bleacherreport.com]               0.0062      0.020      0.315      0.753      -0.032       0.045
+C(domain)[T.blogs.wsj.com]                   -0.0020      0.020     -0.104      0.917      -0.040       0.036
+C(domain)[T.chowhound.chow.com]              -0.0171      0.020     -0.864      0.388      -0.056       0.022
+C(domain)[T.en.m.wikipedia.org]               0.0199      0.020      0.972      0.331      -0.020       0.060
+C(domain)[T.en.wikipedia.org]                 0.0163      0.020      0.812      0.417      -0.023       0.056
+C(domain)[T.gawker.com]                       0.0363      0.020      1.846      0.065      -0.002       0.075
+C(domain)[T.gizmodo.com]                      0.0400      0.020      2.015      0.044       0.001       0.079
+C(domain)[T.lists.debian.org]                -0.0332      0.020     -1.679      0.093      -0.072       0.006
+C(domain)[T.lists.w3.org]                    -0.0054      0.020     -0.273      0.785      -0.045       0.034
+C(domain)[T.phys.org]                         0.0253      0.020      1.291      0.197      -0.013       0.064
+C(domain)[T.stackoverflow.com]                0.0353      0.020      1.775      0.076      -0.004       0.074
+C(domain)[T.techcrunch.com]                   0.0056      0.020      0.288      0.774      -0.033       0.044
+C(domain)[T.thefiringline.com]               -0.0449      0.020     -2.223      0.026      -0.084      -0.005
+C(domain)[T.tvtropes.org]                    -0.0074      0.020     -0.378      0.705      -0.046       0.031
+C(domain)[T.www.bbc.co.uk]                    0.0410      0.020      2.096      0.036       0.003       0.079
+C(domain)[T.www.beeradvocate.com]            -0.0041      0.020     -0.200      0.841      -0.044       0.036
+C(domain)[T.www.bio.net]                      0.0155      0.020      0.785      0.433      -0.023       0.054
+C(domain)[T.www.bloomberg.com]                0.0027      0.020      0.136      0.892      -0.037       0.042
+C(domain)[T.www.businessinsider.com]          0.0101      0.020      0.517      0.605      -0.028       0.049
+C(domain)[T.www.cnet.com]                     0.0076      0.020      0.388      0.698      -0.031       0.046
+C(domain)[T.www.engadget.com]                 0.0177      0.020      0.901      0.368      -0.021       0.056
+C(domain)[T.www.fanfiction.net]              -0.0232      0.020     -1.136      0.256      -0.063       0.017
+C(domain)[T.www.fool.com]                     0.0218      0.020      1.101      0.271      -0.017       0.061
+C(domain)[T.www.forbes.com]                   0.0063      0.020      0.322      0.748      -0.032       0.045
+C(domain)[T.www.hindustantimes.com]           0.0314      0.020      1.598      0.110      -0.007       0.070
+C(domain)[T.www.huffingtonpost.com]           0.0245      0.020      1.249      0.212      -0.014       0.063
+C(domain)[T.www.imdb.com]                    -0.0032      0.020     -0.162      0.871      -0.042       0.036
+C(domain)[T.www.meetup.com]                  -0.0210      0.021     -1.010      0.313      -0.062       0.020
+C(domain)[T.www.mlive.com]                    0.0331      0.020      1.687      0.092      -0.005       0.072
+C(domain)[T.www.ncbi.nlm.nih.gov]             0.0514      0.020      2.615      0.009       0.013       0.090
+C(domain)[T.www.nj.com]                       0.0133      0.020      0.676      0.499      -0.025       0.052
+C(domain)[T.www.nytimes.com]                  0.0367      0.020      1.879      0.061      -0.002       0.075
+C(domain)[T.www.ocregister.com]              -0.0098      0.020     -0.497      0.619      -0.048       0.029
+C(domain)[T.www.osnews.com]                  -0.0187      0.020     -0.918      0.359      -0.059       0.021
+C(domain)[T.www.oxforddictionaries.com]      -0.0243      0.020     -1.205      0.228      -0.064       0.015
+C(domain)[T.www.popmatters.com]               0.0278      0.020      1.421      0.156      -0.011       0.066
+C(domain)[T.www.rediff.com]                  -0.0037      0.020     -0.188      0.851      -0.043       0.035
+C(domain)[T.www.sandiegouniontribune.com]  5.116e-05      0.020      0.003      0.998      -0.038       0.038
+C(domain)[T.www.sparkpeople.com]             -0.0363      0.020     -1.807      0.071      -0.076       0.003
+C(domain)[T.www.telegraph.co.uk]             -0.0029      0.020     -0.147      0.883      -0.041       0.036
+C(domain)[T.www.theguardian.com]              0.0013      0.020      0.067      0.947      -0.037       0.040
+C(domain)[T.www.theregister.co.uk]           -0.0077      0.020     -0.395      0.693      -0.046       0.031
+C(domain)[T.www.thestreet.com]               -0.0873      0.020     -4.271      0.000      -0.127      -0.047
+C(domain)[T.www.travelpod.com]               -0.0172      0.020     -0.873      0.383      -0.056       0.021
+C(domain)[T.www.trendhunter.com]             -0.0165      0.020     -0.837      0.403      -0.055       0.022
+C(domain)[T.www.upi.com]                      0.0433      0.020      2.193      0.029       0.005       0.082
+C(domain)[T.www.urbandictionary.com]         -0.0094      0.020     -0.469      0.639      -0.049       0.030
+C(domain)[T.www.washingtonpost.com]           0.0368      0.020      1.881      0.060      -0.002       0.075
+C(domain)[T.www.wsj.com]                      0.0073      0.020      0.370      0.711      -0.031       0.046
+X1                                           -0.2155      0.092     -2.352      0.019      -0.395      -0.036
+X2                                           -0.7928      0.296     -2.676      0.008      -1.374      -0.211
+X3                                           -0.0021      0.002     -0.926      0.355      -0.006       0.002
+X4                                            0.0128      0.004      3.330      0.001       0.005       0.020
+log_tamanho                                   0.0010      0.003      0.383      0.702      -0.004       0.006
+==============================================================================
+Omnibus:                       50.568   Durbin-Watson:                   1.914
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               70.477
+Skew:                          -0.450   Prob(JB):                     4.97e-16
+Kurtosis:                       3.939   Cond. No.                     1.19e+03
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 1.19e+03. This might indicate that there are
+strong multicollinearity or other numerical problems.
+
+
+======================================================================
+Y = forca preditiva (predictive strength) — conjunto B (selecionado para este alvo)
+======================================================================
+SIMPLES
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                      y   R-squared:                       0.063
+Model:                            OLS   Adj. R-squared:                  0.059
+Method:                 Least Squares   F-statistic:                     16.73
+Date:                Thu, 12 Nov 2026   Prob (F-statistic):           2.77e-13
+Time:                        17:01:52   Log-Likelihood:                 1298.7
+No. Observations:                1000   AIC:                            -2587.
+Df Residuals:                     995   BIC:                            -2563.
+Df Model:                           4                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+Intercept      0.9814      0.021     46.893      0.000       0.940       1.022
+X1             0.0093      0.009      0.983      0.326      -0.009       0.028
+X2            -0.2833      0.059     -4.774      0.000      -0.400      -0.167
+X3            -0.0627      0.011     -5.741      0.000      -0.084      -0.041
+X4            -0.0202      0.018     -1.105      0.269      -0.056       0.016
+==============================================================================
+Omnibus:                       65.290   Durbin-Watson:                   1.993
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               80.820
+Skew:                          -0.600   Prob(JB):                     2.82e-18
+Kurtosis:                       3.706   Cond. No.                         42.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+COM CONTROLE
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                      y   R-squared:                       0.217
+Model:                            OLS   Adj. R-squared:                  0.172
+Method:                 Least Squares   F-statistic:                     4.847
+Date:                Thu, 12 Nov 2026   Prob (F-statistic):           8.21e-25
+Time:                        17:01:52   Log-Likelihood:                 1388.4
+No. Observations:                1000   AIC:                            -2667.
+Df Residuals:                     945   BIC:                            -2397.
+Df Model:                          54                                         
+Covariance Type:            nonrobust                                         
+=============================================================================================================
+                                                coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------------------
+Intercept                                     0.9050      0.033     27.284      0.000       0.840       0.970
+C(domain)[T.bleacherreport.com]            3.463e-05      0.020      0.002      0.999      -0.039       0.039
+C(domain)[T.blogs.wsj.com]                   -0.0054      0.020     -0.275      0.784      -0.044       0.033
+C(domain)[T.chowhound.chow.com]              -0.0195      0.020     -0.989      0.323      -0.058       0.019
+C(domain)[T.en.m.wikipedia.org]               0.0227      0.021      1.081      0.280      -0.019       0.064
+C(domain)[T.en.wikipedia.org]                 0.0242      0.020      1.184      0.237      -0.016       0.064
+C(domain)[T.gawker.com]                       0.0439      0.020      2.209      0.027       0.005       0.083
+C(domain)[T.gizmodo.com]                      0.0499      0.020      2.484      0.013       0.010       0.089
+C(domain)[T.lists.debian.org]                -0.0299      0.020     -1.496      0.135      -0.069       0.009
+C(domain)[T.lists.w3.org]                 -8.742e-05      0.020     -0.004      0.996      -0.039       0.039
+C(domain)[T.phys.org]                         0.0146      0.020      0.737      0.461      -0.024       0.053
+C(domain)[T.stackoverflow.com]                0.0421      0.020      2.120      0.034       0.003       0.081
+C(domain)[T.techcrunch.com]                   0.0017      0.020      0.088      0.930      -0.037       0.041
+C(domain)[T.thefiringline.com]               -0.0513      0.020     -2.560      0.011      -0.091      -0.012
+C(domain)[T.tvtropes.org]                     0.0081      0.020      0.407      0.684      -0.031       0.047
+C(domain)[T.www.bbc.co.uk]                    0.0351      0.020      1.782      0.075      -0.004       0.074
+C(domain)[T.www.beeradvocate.com]             0.0071      0.021      0.340      0.734      -0.034       0.048
+C(domain)[T.www.bio.net]                      0.0148      0.020      0.744      0.457      -0.024       0.054
+C(domain)[T.www.bloomberg.com]               -0.0119      0.020     -0.582      0.561      -0.052       0.028
+C(domain)[T.www.businessinsider.com]          0.0062      0.020      0.315      0.753      -0.033       0.045
+C(domain)[T.www.cnet.com]                    -0.0010      0.020     -0.053      0.958      -0.040       0.038
+C(domain)[T.www.engadget.com]                 0.0222      0.020      1.126      0.260      -0.016       0.061
+C(domain)[T.www.fanfiction.net]              -0.0188      0.020     -0.938      0.349      -0.058       0.021
+C(domain)[T.www.fool.com]                     0.0171      0.020      0.867      0.386      -0.022       0.056
+C(domain)[T.www.forbes.com]                  -0.0021      0.020     -0.109      0.913      -0.041       0.037
+C(domain)[T.www.hindustantimes.com]           0.0303      0.020      1.533      0.126      -0.008       0.069
+C(domain)[T.www.huffingtonpost.com]           0.0177      0.020      0.898      0.369      -0.021       0.056
+C(domain)[T.www.imdb.com]                     0.0155      0.021      0.748      0.455      -0.025       0.056
+C(domain)[T.www.meetup.com]                  -0.0242      0.021     -1.163      0.245      -0.065       0.017
+C(domain)[T.www.mlive.com]                    0.0240      0.020      1.217      0.224      -0.015       0.063
+C(domain)[T.www.ncbi.nlm.nih.gov]             0.0583      0.021      2.807      0.005       0.018       0.099
+C(domain)[T.www.nj.com]                       0.0038      0.020      0.191      0.849      -0.035       0.043
+C(domain)[T.www.nytimes.com]                  0.0316      0.020      1.603      0.109      -0.007       0.070
+C(domain)[T.www.ocregister.com]              -0.0170      0.020     -0.859      0.390      -0.056       0.022
+C(domain)[T.www.osnews.com]                  -0.0252      0.020     -1.254      0.210      -0.065       0.014
+C(domain)[T.www.oxforddictionaries.com]      -0.0314      0.020     -1.576      0.115      -0.071       0.008
+C(domain)[T.www.popmatters.com]               0.0375      0.020      1.882      0.060      -0.002       0.077
+C(domain)[T.www.rediff.com]                  -0.0092      0.020     -0.455      0.649      -0.049       0.030
+C(domain)[T.www.sandiegouniontribune.com]    -0.0062      0.020     -0.312      0.755      -0.045       0.033
+C(domain)[T.www.sparkpeople.com]             -0.0376      0.020     -1.885      0.060      -0.077       0.002
+C(domain)[T.www.telegraph.co.uk]             -0.0058      0.020     -0.290      0.772      -0.045       0.033
+C(domain)[T.www.theguardian.com]              0.0029      0.020      0.144      0.885      -0.036       0.042
+C(domain)[T.www.theregister.co.uk]           -0.0114      0.020     -0.579      0.563      -0.050       0.027
+C(domain)[T.www.thestreet.com]               -0.0950      0.021     -4.609      0.000      -0.135      -0.055
+C(domain)[T.www.travelpod.com]               -0.0201      0.020     -1.005      0.315      -0.059       0.019
+C(domain)[T.www.trendhunter.com]             -0.0128      0.020     -0.642      0.521      -0.052       0.026
+C(domain)[T.www.upi.com]                      0.0360      0.020      1.819      0.069      -0.003       0.075
+C(domain)[T.www.urbandictionary.com]         -0.0106      0.020     -0.533      0.594      -0.050       0.028
+C(domain)[T.www.washingtonpost.com]           0.0384      0.020      1.953      0.051      -0.000       0.077
+C(domain)[T.www.wsj.com]                      0.0062      0.020      0.311      0.756      -0.033       0.045
+X1                                           -0.0046      0.010     -0.452      0.651      -0.025       0.015
+X2                                           -0.2552      0.065     -3.937      0.000      -0.382      -0.128
+X3                                           -0.0217      0.016     -1.391      0.165      -0.052       0.009
+X4                                            0.0201      0.020      0.982      0.326      -0.020       0.060
+log_tamanho                                   0.0035      0.003      1.349      0.178      -0.002       0.009
+==============================================================================
+Omnibus:                       72.147   Durbin-Watson:                   1.938
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              112.236
+Skew:                          -0.548   Prob(JB):                     4.25e-25
+Kurtosis:                       4.222   Cond. No.                         401.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
